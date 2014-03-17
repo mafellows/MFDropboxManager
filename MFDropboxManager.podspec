@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
 
   s.library   = 'c++'
 
-  s.dependency = 'Dropbox-Sync-API-SDK'
+  s.dependency 'Dropbox-Sync-API-SDK'
 
   s.requires_arc = true
 end
