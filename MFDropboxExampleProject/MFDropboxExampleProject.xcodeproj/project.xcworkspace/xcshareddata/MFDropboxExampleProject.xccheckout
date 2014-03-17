@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>1AC51D7D-8B8B-4B19-A7F9-7AD109D13669</string>
+	<string>BEF413B5-6308-4476-AFED-5A5DC8AD276A</string>
 	<key>IDESourceControlProjectName</key>
 	<string>MFDropboxExampleProject</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -34,7 +34,7 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>434CFDD9-A4E8-46D0-8914-5B318D0266A8</string>
 			<key>IDESourceControlWCCName</key>
-			<string>MFDropboxManager</string>
+			<string>MFDropboxExampleProject</string>
 		</dict>
 	</array>
 </dict>

@@ -19,6 +19,13 @@
 		8F4E4C1318D797A300EC0B56 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F4E4BFB18D797A300EC0B56 /* UIKit.framework */; };
 		8F4E4C1B18D797A300EC0B56 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F4E4C1918D797A300EC0B56 /* InfoPlist.strings */; };
 		8F4E4C1D18D797A300EC0B56 /* MFDropboxExampleProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F4E4C1C18D797A300EC0B56 /* MFDropboxExampleProjectTests.m */; };
+		8F4E4C2B18D797D200EC0B56 /* MFDropboxManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F4E4C2A18D797D200EC0B56 /* MFDropboxManager.m */; };
+		8F4E4C2D18D7981900EC0B56 /* Dropbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F4E4C2C18D7981900EC0B56 /* Dropbox.framework */; };
+		8F4E4C2F18D7990B00EC0B56 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F4E4C2E18D7990B00EC0B56 /* CFNetwork.framework */; };
+		8F4E4C3118D7991500EC0B56 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F4E4C3018D7991500EC0B56 /* Security.framework */; };
+		8F4E4C3318D7991D00EC0B56 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F4E4C3218D7991D00EC0B56 /* SystemConfiguration.framework */; };
+		8F4E4C3518D7992200EC0B56 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F4E4C3418D7992200EC0B56 /* QuartzCore.framework */; };
+		8F4E4C3718D7993400EC0B56 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F4E4C3618D7993400EC0B56 /* libc++.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +55,14 @@
 		8F4E4C1818D797A300EC0B56 /* MFDropboxExampleProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MFDropboxExampleProjectTests-Info.plist"; sourceTree = "<group>"; };
 		8F4E4C1A18D797A300EC0B56 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8F4E4C1C18D797A300EC0B56 /* MFDropboxExampleProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MFDropboxExampleProjectTests.m; sourceTree = "<group>"; };
+		8F4E4C2918D797D200EC0B56 /* MFDropboxManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFDropboxManager.h; sourceTree = "<group>"; };
+		8F4E4C2A18D797D200EC0B56 /* MFDropboxManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFDropboxManager.m; sourceTree = "<group>"; };
+		8F4E4C2C18D7981900EC0B56 /* Dropbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Dropbox.framework; sourceTree = "<group>"; };
+		8F4E4C2E18D7990B00EC0B56 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		8F4E4C3018D7991500EC0B56 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		8F4E4C3218D7991D00EC0B56 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8F4E4C3418D7992200EC0B56 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8F4E4C3618D7993400EC0B56 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +70,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F4E4C3718D7993400EC0B56 /* libc++.dylib in Frameworks */,
+				8F4E4C3518D7992200EC0B56 /* QuartzCore.framework in Frameworks */,
+				8F4E4C3318D7991D00EC0B56 /* SystemConfiguration.framework in Frameworks */,
+				8F4E4C3118D7991500EC0B56 /* Security.framework in Frameworks */,
+				8F4E4C2F18D7990B00EC0B56 /* CFNetwork.framework in Frameworks */,
 				8F4E4BFA18D797A300EC0B56 /* CoreGraphics.framework in Frameworks */,
 				8F4E4BFC18D797A300EC0B56 /* UIKit.framework in Frameworks */,
 				8F4E4BF818D797A300EC0B56 /* Foundation.framework in Frameworks */,
+				8F4E4C2D18D7981900EC0B56 /* Dropbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +98,8 @@
 		8F4E4BEB18D797A300EC0B56 = {
 			isa = PBXGroup;
 			children = (
+				8F4E4C2918D797D200EC0B56 /* MFDropboxManager.h */,
+				8F4E4C2A18D797D200EC0B56 /* MFDropboxManager.m */,
 				8F4E4BFD18D797A300EC0B56 /* MFDropboxExampleProject */,
 				8F4E4C1618D797A300EC0B56 /* MFDropboxExampleProjectTests */,
 				8F4E4BF618D797A300EC0B56 /* Frameworks */,
@@ -96,6 +119,12 @@
 		8F4E4BF618D797A300EC0B56 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8F4E4C3618D7993400EC0B56 /* libc++.dylib */,
+				8F4E4C3418D7992200EC0B56 /* QuartzCore.framework */,
+				8F4E4C3218D7991D00EC0B56 /* SystemConfiguration.framework */,
+				8F4E4C3018D7991500EC0B56 /* Security.framework */,
+				8F4E4C2E18D7990B00EC0B56 /* CFNetwork.framework */,
+				8F4E4C2C18D7981900EC0B56 /* Dropbox.framework */,
 				8F4E4BF718D797A300EC0B56 /* Foundation.framework */,
 				8F4E4BF918D797A300EC0B56 /* CoreGraphics.framework */,
 				8F4E4BFB18D797A300EC0B56 /* UIKit.framework */,
@@ -240,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F4E4C0818D797A300EC0B56 /* AppDelegate.m in Sources */,
+				8F4E4C2B18D797D200EC0B56 /* MFDropboxManager.m in Sources */,
 				8F4E4C0418D797A300EC0B56 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -359,6 +389,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/mafellow/ios/MFDropboxManager/MFDropboxExampleProject,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MFDropboxExampleProject/MFDropboxExampleProject-Prefix.pch";
 				INFOPLIST_FILE = "MFDropboxExampleProject/MFDropboxExampleProject-Info.plist";
@@ -372,6 +406,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/mafellow/ios/MFDropboxManager/MFDropboxExampleProject,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MFDropboxExampleProject/MFDropboxExampleProject-Prefix.pch";
 				INFOPLIST_FILE = "MFDropboxExampleProject/MFDropboxExampleProject-Info.plist";
