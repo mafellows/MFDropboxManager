@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
 
 
 
-  s.frameworks = 'CFNetwork', 'Security', 'SystemConfiguration', 'QuartzCore'
+  s.frameworks = 'CFNetwork', 'Security', 'SystemConfiguration', 'QuartzCore', 'Dropbox'
 
   s.library   = 'c++'
 
