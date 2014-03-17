@@ -8,7 +8,7 @@
 
 
 #import "MFDropboxManager.h"
-#import <Dropbox/Dropbox.h>
+// #import <Dropbox/Dropbox.h> // Uncomment this after you import the Dropbox Framework
 
 #define CHILD_PATH @"DailyDo.txt"
 

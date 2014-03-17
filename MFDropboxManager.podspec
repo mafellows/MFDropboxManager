@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
 
   s.frameworks = 'CFNetwork', 'Security', 'SystemConfiguration', 'QuartzCore'
 
-  s.library   = 'libc++'
+  s.library   = 'c++'
 
 
   s.requires_arc = true
